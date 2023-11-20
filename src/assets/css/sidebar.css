@@ -1,0 +1,147 @@
+.Sidebar-background-color {
+    background-color: var(--primary-color);
+    min-width: 300px;
+    color: #ffffff !important;
+    font-family: var(--font-family);
+    min-height: 100vh;
+    max-height: auto;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+}
+
+:where(.css-dev-only-do-not-override-1adbn6x).ant-menu-dark.ant-menu-inline .ant-menu-sub.ant-menu-inline,
+:where(.css-dev-only-do-not-override-1adbn6x).ant-menu-dark>.ant-menu.ant-menu-inline .ant-menu-sub.ant-menu-inline {
+    background-color: var(--primary-color);
+}
+
+:where(.css-dev-only-do-not-override-1adbn6x).ant-btn-primary {
+    color: #fff;
+    background-color: #074559;
+    border-radius: 0;
+    height: 48px;
+    width: 48px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+:where(.css-dev-only-do-not-override-1adbn6x).ant-menu-dark .ant-menu-item-selected,
+:where(.css-dev-only-do-not-override-1adbn6x).ant-menu-dark>.ant-menu .ant-menu-item-selected {
+    background-color: #ffffff21;
+    border-radius: 0;
+}
+
+.InactiveMenuItemChild,
+.ActiveMenuItemChild {
+}
+
+.ant-menu-submenu-title {
+    width: auto;
+    padding-left: 24px;
+}
+
+body {
+    margin: 0;
+}
+
+.ActiveMenuItem {
+    color: #ffffff !important;
+    background-color: #ffffff21 !important;
+    border-radius: 0 !important;
+    margin: 0 !important;
+}
+
+.ParentActiveMenuItem,
+.ParentActiveMenuItem.ant-menu-submenu-active,
+.ParentActiveMenuItem.ant-menu-submenu-active>.ant-menu-submenu-title {
+    color: white !important;
+}
+
+.InactiveMenuItem,
+.InactiveMenuItem>a,
+.ParentInactiveMenuItem>a {
+    color: white !important;
+}
+
+.ParentInactiveMenuItem>a {
+    background-color: initial;
+}
+
+.InactiveMenuItem {
+    color: #ffffff !important;
+    border-radius: 0 !important;
+    margin: 0 !important;
+    width: auto !important;
+}
+
+.Side-bar-group {
+    width: auto;
+    border: 1px solid white;
+    margin: 24px;
+    padding: 12px;
+    border-radius: 12px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ffffff18;
+}
+
+.Side-bar-group-divs-inside {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Side-bar-group-divs-inside-h3 {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.Side-bar-group-divs-inside-p {
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: 24px;
+}
+
+.Side-bar-group-divs-inside-button {
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    background-color: var(--secondary-color);
+    color: white;
+    font-family: var(--font-family);
+}
+
+.Side-bar-group-divs-inside-notifications {
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.Side-bar-group-divs-inside-notifications-icon {
+    color: var(--primary-color);
+    font-size: 18px;
+}
+
+.Side-bar-group-divs-inside-dashboard {
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.react-icons {
+    margin-bottom: 4px;
+}
+
+.ActiveMenuItems {
+    margin-left: 24px;
+}

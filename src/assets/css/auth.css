@@ -1,0 +1,570 @@
+.auth-first-div {
+    display: flex;
+    flex-direction: row;
+    font-family: var(--font-family);
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.auth-background-green-div {
+    font-family: var(--font-family);
+    background-color: var(--primary-color);
+    width: 100%;
+    justify-content: space-between;
+    gap: 18px;
+    padding: 24px;
+    min-height: 100vh;
+}
+
+.red {
+    border: 1px solid green;
+}
+
+.auth-background-white-div {
+    font-family: var(--secondary-color);
+    background-color: #fff;
+    width: 100%;
+    padding: 24px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 130px
+}
+
+.text-align {
+    text-align: left;
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+.auth-brown-oberon-heading {
+    color: #C98868;
+    font-weight: 600;
+}
+
+.auth-dots {
+    height: 120px;
+    width: 120px;
+}
+
+.auth-div-dots {
+    width: 110.3%;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.auth-heading-oberon-heading {
+    color: white;
+    font-weight: 300;
+    font-size: 28px;
+}
+
+
+.auth-span-oberon-heading {
+    color: var(--secondary-color);
+    ;
+    font-weight: bolder;
+    font-size: 28px;
+    border-bottom: var(--secondary-color);
+}
+
+.auth-full-height {
+    height: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-background-text-white-signup {
+    font-weight: 900;
+    font-family: var(--font-family);
+    font-size: 18px;
+}
+
+.auth-background-text-white-signup {
+    font-weight: 900;
+    font-family: var(--font-family);
+    font-size: 18px;
+}
+
+.auth-error {
+    background-color: #ff000025;
+    color: #ff0000;
+    font-size: 13px;
+    padding: 12px;
+    border-left: 4px solid red;
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+
+.auth-err-width {
+    width: 93%,
+}
+
+.auth-success {
+    background-color: #127b0c25;
+    color: #127b0c;
+    font-size: 13px;
+    padding: 12px;
+    border-left: 4px solid #127b0c;
+    display: flex;
+    align-items: center;
+}
+
+.error-icon-auth {
+    font-size: 20px;
+    margin-right: 12px;
+}
+
+.auth-background-text-white-signup-p {
+    font-size: 13px;
+    margin-top: -12px;
+    color: #66666696;
+}
+
+.auth-forgot-password {
+    font-size: 13px;
+    text-align: right;
+    width: auto;
+    color: gray
+}
+
+.auth-background-text-white-signup-span {
+    font-size: 13px;
+    margin-top: -12px;
+    color: var(--primary-color);
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.auth-input {
+    height: 36px;
+    border: none;
+    border-bottom: #ccc 1px solid;
+    outline: none;
+    width: auto;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 200;
+
+}
+
+.auth-input:focus {
+    border-bottom: var(--primary-color) 1px solid;
+    padding-left: 21px
+}
+
+.auth-input:focus+.auth-label {
+    color: var(--secondary-color);
+    padding-left: 12px;
+
+}
+
+.div-auth-input {
+    width: 82%;
+    margin-top: 48px;
+    gap: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.auth-input::placeholder {
+    font-family: var(--font-family);
+
+}
+
+.auth-label {
+    font-size: 13px;
+}
+
+.auth-full {
+    width: 93%;
+    font-size: 16px;
+}
+
+.auth-button-container {
+    margin-top: 48px;
+    width: 100%;
+
+
+
+}
+
+.auth-button {
+    width: 100%;
+    height: 45px;
+    border-radius: 33px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family);
+    font-size: 14px;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+}
+
+.auth-button:hover {
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* PasswordInput.css */
+
+.password-input-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* .password-input-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+} */
+
+.password-toggle-icon {
+    position: absolute;
+    top: 70%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+
+}
+
+.password-toggle-icon svg {
+    font-size: 20px;
+    color: #666;
+}
+
+.password-toggle-icon.visible svg {
+    color: #3498db;
+}
+
+.password-toggle-icon.hidden svg {
+    color: #ccc;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    overflow: auto;
+
+}
+.margin-top{
+    margin-top: -12px;
+    margin-bottom: -8px
+}
+.modal-content {
+    background: white;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+
+}
+
+.modal-contents {
+    background: white;
+    width: 500px;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    align-items: flex-start;
+    overflow: auto;
+
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #333;
+}
+
+
+.auth-verify-illustration {
+    width: 160px;
+
+
+}
+
+.auth-modal-p {
+    margin-top: -9px;
+    color: gray;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.auth-modal-h2 {
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.auth-modal-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.auth-hint-password {
+    width: 77%;
+    background-color: var(--primary-color-shade);
+    color: var(--primary-color);
+    padding: 16px;
+    font-size: 14px;
+    margin-top: 32px
+}
+
+.auth-hint-password-error {
+    width: 77%;
+    background-color: #ff000025;
+    color: #ff0000;
+    padding: 16px;
+    font-size: 14px;
+    margin-top: 32px
+}
+
+@media(max-width: 768px) {
+    .auth-background-green-div {
+        display: none
+    }
+
+    .auth-forgot-password {
+        font-size: 13px;
+        text-align: right;
+        width: auto;
+
+    }
+
+    .modal-contents {
+        background: white;
+        width: 380px;
+        padding: 20px;
+        border-radius: 5px;
+        position: relative;
+
+    }
+
+    .auth-background-white-div {
+        font-family: var(--secondary-color);
+        background-color: #fff;
+        padding: 16px;
+        min-height: 100vh;
+        padding-bottom: 64px;
+        width: auto;
+        margin-top: 64px;
+
+    }
+
+    .auth-first-div {
+        display: flex;
+        flex-direction: column;
+        font-family: var(--font-family);
+        justify-content: space-between;
+        width: 100vw;
+        background-color: #fff;
+    }
+
+    .auth-div-dots {
+        width: 100%;
+
+    }
+
+    .auth-input {
+        height: 36px;
+        border: none;
+        border-bottom: #666666 1px solid;
+        outline: none;
+        font-family: var(--font-family);
+        font-size: 14px;
+        font-weight: 200;
+        width: auto;
+
+    }
+}
+
+
+@media(max-width: 450px) {
+    .auth-hint-password {
+        width: auto;
+        background-color: var(--primary-color-shade);
+        color: var(--primary-color);
+        padding: 16px;
+        font-size: 14px;
+        margin-top: 32px
+    }
+
+    .modal-contents {
+        background: white;
+        width: 330px;
+        padding: 20px;
+        border-radius: 5px;
+        position: relative;
+
+    }
+
+    .auth-hint-password-error {
+        width: auto;
+        background-color: #ff000025;
+        color: #ff0000;
+        padding: 16px;
+        font-size: 14px;
+        margin-top: 32px
+    }
+
+    .auth-background-white-div {
+        font-family: var(--secondary-color);
+        background-color: #fff;
+        padding: 16px;
+        min-height: 100vh;
+        padding-bottom: 64px;
+        width: auto;
+        margin-top: 64px;
+    }
+
+    .auth-input {
+        height: 36px;
+        border: none;
+        border-bottom: #666666 1px solid;
+        outline: none;
+        font-family: var(--font-family);
+        font-size: 14px;
+        font-weight: 200;
+        width: auto;
+
+    }
+
+
+    .auth-forgot-password {
+        font-size: 13px;
+        text-align: right;
+        width: auto;
+
+    }
+
+    .modal-content {
+        background: white;
+        max-width: 300px;
+        padding: 20px;
+        border-radius: 5px;
+        position: relative;
+
+    }
+
+    .div-auth-input {
+        width: auto;
+        margin-top: 48px;
+        gap: 2px;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+
+/* Tailwind CSS classes converted to regular CSS */
+
+aside {
+    height: 100vh;
+}
+
+nav {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-right: 1px solid #e5e7eb;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+p-4 {
+    padding: 1rem;
+}
+
+pb-2 {
+    padding-bottom: 0.5rem;
+}
+
+justify-between {
+    justify-content: space-between;
+}
+
+items-center {
+    align-items: center;
+}
+
+overflow-hidden {
+    overflow: hidden;
+}
+
+transition-all {
+    transition: all 0.3s ease;
+}
+
+w-32 {
+    width: 8rem;
+}
+
+w-0 {
+    width: 0;
+}
+
+px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+/* ... Add other utility classes as needed */
+
+/* React Icons styles */
+.react-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+/* Additional custom styles for your app */
+
+
+@media(max-width: 350px) {
+    .modal-content {
+        background: white;
+        max-width: 250px;
+        padding: 20px;
+        border-radius: 5px;
+        position: relative;
+
+    }
+
+    .modal-contents {
+        background: white;
+        width: 280px;
+        padding: 20px;
+        border-radius: 5px;
+        position: relative;
+
+    }
+}
